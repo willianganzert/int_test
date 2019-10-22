@@ -1,0 +1,414 @@
+{
+	"info": {
+		"_postman_id": "c716b7d2-ce03-48a5-a680-52558936ea9a",
+		"name": "BSC_Projects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "camel-rest-project",
+			"item": [
+				{
+					"name": "Stack",
+					"item": [
+						{
+							"name": "getStack",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-camel-rest-project}}:{{port-camel-rest-project}}/stack",
+									"host": [
+										"{{host-camel-rest-project}}"
+									],
+									"port": "{{port-camel-rest-project}}",
+									"path": [
+										"stack"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "push",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-camel-rest-project}}:{{port-camel-rest-project}}/stack/push?value=3",
+									"host": [
+										"{{host-camel-rest-project}}"
+									],
+									"port": "{{port-camel-rest-project}}",
+									"path": [
+										"stack",
+										"push"
+									],
+									"query": [
+										{
+											"key": "value",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "pop",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-camel-rest-project}}:{{port-camel-rest-project}}/stack/pop",
+									"host": [
+										"{{host-camel-rest-project}}"
+									],
+									"port": "{{port-camel-rest-project}}",
+									"path": [
+										"stack",
+										"pop"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-camel-rest-project}}:{{port-camel-rest-project}}/stack/remove?index=0",
+									"host": [
+										"{{host-camel-rest-project}}"
+									],
+									"port": "{{port-camel-rest-project}}",
+									"path": [
+										"stack",
+										"remove"
+									],
+									"query": [
+										{
+											"key": "index",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "spring-web-project",
+			"item": [
+				{
+					"name": "Stack",
+					"item": [
+						{
+							"name": "getStack",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-spring-web-project}}:{{port-spring-web-project}}/stack",
+									"host": [
+										"{{host-spring-web-project}}"
+									],
+									"port": "{{port-spring-web-project}}",
+									"path": [
+										"stack"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "push",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-spring-web-project}}:{{port-spring-web-project}}/stack/push?value=3",
+									"host": [
+										"{{host-spring-web-project}}"
+									],
+									"port": "{{port-spring-web-project}}",
+									"path": [
+										"stack",
+										"push"
+									],
+									"query": [
+										{
+											"key": "value",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "pop",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-spring-web-project}}:{{port-spring-web-project}}/stack/pop",
+									"host": [
+										"{{host-spring-web-project}}"
+									],
+									"port": "{{port-spring-web-project}}",
+									"path": [
+										"stack",
+										"pop"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-spring-web-project}}:{{port-spring-web-project}}/stack/remove?index=0",
+									"host": [
+										"{{host-spring-web-project}}"
+									],
+									"port": "{{port-spring-web-project}}",
+									"path": [
+										"stack",
+										"remove"
+									],
+									"query": [
+										{
+											"key": "index",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "971fc447-549a-46f7-944b-ff6ce1fc0507",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "bbb392ac-9bc7-4414-b49e-4d1a27e47260",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "jersey-project",
+			"item": [
+				{
+					"name": "Stack",
+					"item": [
+						{
+							"name": "getStack",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-jersey-project}}:{{port-jersey-project}}/stack",
+									"host": [
+										"{{host-jersey-project}}"
+									],
+									"port": "{{port-jersey-project}}",
+									"path": [
+										"stack"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "push",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-jersey-project}}:{{port-jersey-project}}/stack/push?value=3",
+									"host": [
+										"{{host-jersey-project}}"
+									],
+									"port": "{{port-jersey-project}}",
+									"path": [
+										"stack",
+										"push"
+									],
+									"query": [
+										{
+											"key": "value",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "pop",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-jersey-project}}:{{port-jersey-project}}/stack/pop",
+									"host": [
+										"{{host-jersey-project}}"
+									],
+									"port": "{{port-jersey-project}}",
+									"path": [
+										"stack",
+										"pop"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "remove",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-jersey-project}}:{{port-jersey-project}}/stack/remove?index=0",
+									"host": [
+										"{{host-jersey-project}}"
+									],
+									"port": "{{port-jersey-project}}",
+									"path": [
+										"stack",
+										"remove"
+									],
+									"query": [
+										{
+											"key": "index",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "971fc447-549a-46f7-944b-ff6ce1fc0507",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "bbb392ac-9bc7-4414-b49e-4d1a27e47260",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d5c48875-5730-4b6c-8c3e-8297c6ba69cc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c22c386b-b362-4787-a4b4-ca3dc2a09f7d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "c62a2726-6c61-487d-8552-82fb84a930e0",
+			"key": "host-camel-rest-project",
+			"value": "http://localhost",
+			"type": "string"
+		},
+		{
+			"id": "2bc05fa2-0b40-4ffe-b4f2-73747d4ff199",
+			"key": "host-spring-web-project",
+			"value": "http://localhost",
+			"type": "string"
+		},
+		{
+			"id": "3c15ce2d-d742-4101-9ce3-45fb4e618939",
+			"key": "host-jersey-project",
+			"value": "http://localhost",
+			"type": "string"
+		},
+		{
+			"id": "e811ef6f-2945-406d-86e7-385eedab0cc9",
+			"key": "port-camel-rest-project",
+			"value": "9092",
+			"type": "string"
+		},
+		{
+			"id": "ae95104c-dce8-4f7e-b60c-5efae3529d35",
+			"key": "port-spring-web-project",
+			"value": "9091",
+			"type": "string"
+		},
+		{
+			"id": "bff952c2-8390-43c9-bda2-fb6e0a721cb9",
+			"key": "port-jersey-project",
+			"value": "9090",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

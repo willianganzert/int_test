@@ -18,7 +18,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<camel.version>2.24.2</camel.version>
-		<swagger-java-version>2.0.12</swagger-java-version>
+		<swagger-java-version>3.23.11</swagger-java-version>
 		<webjars-locator-version>0.37</webjars-locator-version>
 	</properties>
 		
